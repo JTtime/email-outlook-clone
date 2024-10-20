@@ -28,7 +28,7 @@ const EmailDetail: React.FC = () => {
 
     const getEmailBody = async () => {
         try {
-            const response = await emailServices.getEmailBody(id)
+            const response = await emailServices.getEmailBody(id.toString())
             if (response?.status === 200) {
                 setEmailBody(response?.data)
 
