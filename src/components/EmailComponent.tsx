@@ -1,6 +1,7 @@
 // components/Email.tsx
 import React from 'react';
 import { Box, Typography, Avatar } from '@mui/material';
+import { EmailData } from '@/types';
 
 interface EmailProps {
     emailData: {
@@ -11,7 +12,7 @@ interface EmailProps {
         short_description: string;
         isFavorite?: boolean;
     };
-    onSelectEmail: (id: string) => void;
+    onSelectEmail: (emailData: EmailData) => void;
 }
 
 const Email: React.FC<EmailProps> = ({ emailData, onSelectEmail }) => {
