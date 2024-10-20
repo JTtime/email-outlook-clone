@@ -1,0 +1,123 @@
+.emailContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .emailContainer:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .senderInfo {
+    flex: 2;
+  }
+  
+  .senderName {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .subject {
+    font-size: 16px;
+    margin: 5px 0 0;
+    color: #333;
+  }
+  
+  .emailDetails {
+    flex: 3;
+    text-align: right;
+  }
+  
+  .shortDescription {
+    color: #666;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .emailBodyContainer {
+    background-color: #FFFFFF; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 16px; 
+    max-height: 100vh; 
+    overflow-y: auto; 
+}
+
+.emailBodyContent {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333333;
+}
+
+
+.emailBodyContent a {
+    color: #1a0dab; 
+    text-decoration: none;
+}
+
+.emailBodyContent a:hover {
+    text-decoration: underline;
+}
+
+  
+  .emailDetailContainer {
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 60%; */
+    /* margin-left: 40%; */
+    justify-content: space-between;
+
+    height: 100vh;
+  }
+
+  .emailBodyContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 16px; 
+    max-height: 500px; 
+    overflow-y: auto; 
+}
+
+.header {
+    border-bottom: 1px solid #e0e0e0; 
+    margin-bottom: 16px;
+}
+
+.subject {
+    font-size: 24px; 
+    margin: 0; 
+}
+
+.meta {
+    display: flex; 
+    justify-content: space-between;
+    color: #666666; 
+    font-size: 14px; 
+}
+
+.date {
+    margin-right: 10px; 
+}
+
+.favorite {
+    color: #ff4081; 
+}
+
+.emailBodyContent {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333333; 
+}
+
+  
