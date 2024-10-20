@@ -9,14 +9,24 @@ const Home = () => {
       <p className={styles.description}>
         Explore the features by navigating to the links below.
       </p>
-      <div className={styles.links}>
-        <Link href="/emails" target="_blank" rel="noopener noreferrer" className={styles.link}>
-          Go to Emails App: Moonshot Q1
-        </Link>
-        <Link href="https://data-visuals.netlify.app/auth/Login" target="_blank" rel="noopener noreferrer" className={styles.link}>
-          Go to Data Visuals App Login Page: Moonshot Q2
-        </Link>
-      </div>
+      <section className={styles.links}>
+        <div>
+          <Link href="/emails" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            Go to Emails App Deployment Link: Moonshot Q1
+          </Link>
+          <Link href="https://github.com/JTtime/email-outlook-clone" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            Go to Emails App Source Code: Moonshot Q1
+          </Link>
+        </div>
+        <div>
+          <Link href="https://data-visuals.netlify.app/auth/Login" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            Go to Data Visuals App Login Page: Moonshot Q2
+          </Link>
+          <Link href="https://github.com/JTtime/Data-Analytics-roc8" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            Go to Data Visuals App Source Code: Moonshot Q2
+          </Link>
+        </div>
+      </section>
     </div>
   );
 };

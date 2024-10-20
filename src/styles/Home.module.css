@@ -22,11 +22,12 @@
   
   .links {
     margin-top: 2rem;
+    display: flex;
   }
   
   .link {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 1rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
     color: white;
@@ -39,4 +40,3 @@
   .link:hover {
     background-color: #005bb5;
   }
-  
